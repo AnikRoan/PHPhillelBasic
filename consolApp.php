@@ -3,7 +3,7 @@ echo "Hello, what is your name? ";
 
 $name = trim(fgets(STDIN));
 
-echo "Hello,  $name 4\n";
+echo "Hello,  $name \n";
 
 echo "Enter two numbers:\n";
 
