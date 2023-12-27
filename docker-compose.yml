@@ -5,7 +5,7 @@ services:
     build:
       ./
     volumes:
-    - ./src:/var/www/html
-    environment:
-     PHP_ERROR_REPORTING: E_ALL
-     PHP_DISPLAY_ERRORS: On
+    - ./:/app
+    ports:
+      - "8080:80"
+
